@@ -9,8 +9,8 @@
 
 class Solve {
   bool m_had_error = false;
-public:
 
+public:
   void error(int line, std::string const& message);
 
   void report(int line, std::string const& where, std::string const& message);
@@ -20,9 +20,7 @@ public:
   void run_prompt();
 
 private:
-
   static void run(std::string const& input);
-
 };
 
 #endif // SOLVE_SOLVE_HPP

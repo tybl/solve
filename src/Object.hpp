@@ -5,8 +5,6 @@
 #ifndef SOLVE_OBJECT_HPP
 #define SOLVE_OBJECT_HPP
 
-class Object {
-
-};
+class Object {};
 
 #endif // SOLVE_OBJECT_HPP

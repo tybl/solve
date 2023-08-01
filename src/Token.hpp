@@ -16,11 +16,10 @@ class Token {
   std::string lexeme;
   Object literal;
   int line;
-public:
 
+public:
   Token(TokenType type, std::string lexeme, Object literal, int line);
 
   [[nodiscard]] auto to_string() const -> std::string;
-
 };
 #endif // SOLVE_TOKEN_HPP

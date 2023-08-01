@@ -16,14 +16,13 @@ class Scanner {
   int start = 0;
   int current = 0;
   int line = 1;
-public:
 
-  explicit Scanner(std::string  source);
+public:
+  explicit Scanner(std::string source);
 
   std::vector<Token> scan_tokens();
 
 private:
-
   void add_token(TokenType type);
 
   void add_token(TokenType type, Object literal);
@@ -37,7 +36,6 @@ private:
   bool match(char expected);
 
   char peek();
-
 };
 
 #endif // SOLVE_SCANNER_HPP
